@@ -1,14 +1,51 @@
-#clock {
+input {
+	margin: 20px 20px 0 20px;
 }
 
-#clock img {
+#clock {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-300px, -300px);
+}
+
+#face {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
 }
 
 #hour {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
 }
-
 #minute {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+}
+#second {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 30;
 }
 
-#second {
+#options-container {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 200px;
+	height: 100px;
+	background-color: rgba(127,127,127,.8);
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-size: 24px;
+	font-family: sans-serif;
+
 }
